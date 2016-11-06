@@ -1,0 +1,17 @@
+T=3;
+f=3;
+t1=0:0.002:0.2
+x1=0.8*sin(2*pi*t1*f);
+x1(x1<0)=0
+plot(t1,x1)
+grid
+figure(2)
+t2=0:0.02:2
+x2=0.8*sin(2*pi*t2*f);
+x2(x2<0)=0
+plot(t2,x2)
+figure(3)
+t3=0:0.2:20
+x3=0.8*sin(2*pi*t3*f);
+x3(x3<0)=0
+plot(t3,x3)
