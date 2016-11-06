@@ -33,4 +33,18 @@ hold on
 stem(t3,s3)
 hold on 
 stem(t4,s4)
-%am afisat fiecare nivel
+%am incercat sa afisez fiecare nivel
+
+x1=-1:2:1;
+x2=-3:2:3;
+x3=-5:2:5;
+x4=-7:2:7;
+figure(2)
+stem(t1,x1)
+hold on
+stem(t2,x2)
+hold on
+stem(t3,x3)
+hold on
+stem(t4,x4)
+%am incercat din nou sa afisez fiecare nivel
